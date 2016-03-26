@@ -1,6 +1,6 @@
 # Simple Angular Express Shopping List App
 
-Simple app with AngularJS on the front, Express + Node on the back.
+Simple app with AngularJS on the front, Express + Node on the back. Bettered with Bootstrap.
 
 ## How to use this app
 
