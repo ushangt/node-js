@@ -2,7 +2,7 @@
 
 Simple app with AngularJS on the front, Express + Node on the back.
 
-## How to use angular-express-seedthis app
+## How to use this app
 
 Clone the node-angular repository, run `npm install` to grab the dependencies, and start hacking!
 
