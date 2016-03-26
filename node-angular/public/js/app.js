@@ -20,7 +20,7 @@ config(function ($routeProvider, $locationProvider) {
     }).
     when('/viewItem/:id', {
       templateUrl: 'partials/viewItem',
-      controller: 'ViewtemCtrl'
+      controller: 'viewItemCtrl'
     }).
     when('/editItem/:id', {
       templateUrl: 'partials/editItem',

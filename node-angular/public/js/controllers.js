@@ -27,11 +27,11 @@ function AddItemCtrl($scope, $http, $location) {
 }
 
 function viewItemCtrl($scope, $http, $routeParams) {
-  
+
   $http.get('/api/item/' + $routeParams.id).
     success(function(data) {
       $scope.item = data.item;
-      console.log("HERE",$scope.item);
+      console.log("HERE",data.item);
     });
 }
 
