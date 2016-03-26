@@ -1,7 +1,8 @@
-h2 Edit Item
-label(for='title') Title: 
-input(ng-model='form.title', name='title')
-p Description (Text):
-textarea(ng-model='form.text', cols='50', rows='15')
-p
-  button(ng-click='editItem()') Edit Item
+h2 Edit item
+div(class='form-group')
+	label(for='title') Title:
+	input(ng-model='form.title', name='title', class='form-control', placeholder='Enter the item you want to buy')	
+div(class='form-group')
+	label(for='text') Description (Text):
+	textarea(ng-model='form.text', name='text', cols='50', rows='15',class='form-control')
+button(ng-click='editItem()', class='btn btn-primary') Edit Item
